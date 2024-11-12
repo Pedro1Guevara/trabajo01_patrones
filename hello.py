@@ -13,3 +13,7 @@ def saludoatodos():
 @app.route("/about")
 def sobremi():
     return "<marques><hl>pedro.guevara.rodriguez@uabc.edu.mx</hl></marques>"
+
+@app.route("/grafica")
+def grafica():
+    return "<img src='grafica_lugares_visitados.png' alt='Gráfica de Lugares Visitados por Anthony Bourdain en Coordenadas'>"

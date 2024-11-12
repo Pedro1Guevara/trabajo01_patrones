@@ -19,3 +19,6 @@ plt.tight_layout()
 
 # Mostrar la gráfica
 plt.show()
+
+# Guardar la gráfica en un archivo de imagen
+plt.savefig('grafica_lugares_visitados.png')
